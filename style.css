@@ -65,11 +65,18 @@ main{
     color: hsla(0, 0%, 100%, 0.6)
 }
 
-.Card_img{ background-color: hsl(277, 70%, 61%) }
+.Card_img{ 
+    background-image: url("images/image-header-desktop.jpg");
+    background-repeat: no-repeat;
+    padding-right:540px;
+    padding-bottom: 446px;
+    opacity: 0.5
+}
 
-.Card_img img{ opacity: 0.5 }
+.purple_bg{ background-color: hsl(277, 64%, 61%) }
 
-.Card_img, .Card_img img{
+
+.Card_img, .purple_bg{
     border-top-right-radius: 8px 8px;
     border-bottom-right-radius: 8px 8px
 }
@@ -83,3 +90,7 @@ footer {
 }
 
 footer a { color: hsl(228, 45%, 44%) }
+
+@media screen and (max-width: 376px){
+
+}
