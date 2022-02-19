@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-/*font-family: 'Lexend Deca', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-/*font-family: 'Inter', sans-serif;*/
 
 
 body{ 
     background-color: hsl(233, 47%, 7%);
     color: white;
-    font-family: Inter
+    font-family: 'Inter', sans-serif;
 }
 
 main{
@@ -52,7 +50,7 @@ main{
 .number{ font-size: 22px }
 
 .Lexend_Fam{
-    font-family: Lexend Deca;
+    font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: hsla(0, 0%, 100%, 0.6)
